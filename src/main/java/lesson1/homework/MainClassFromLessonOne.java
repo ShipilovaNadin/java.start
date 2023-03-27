@@ -1,14 +1,14 @@
 package lesson1.homework;
 
-import java.util.Arrays;
-import java.util.Random;
+import java.time.LocalTime;
+import java.util.*;
 
 public class MainClassFromLessonOne {
     public static void main(String[] args) {
         //MinAndMaxValueFromArr(30);
-        SortArray(10);
+        //SortArray(10);
+        HelloNameFromTime();
     }
-
 
     // 1. Задать одномерный массив и найти в нем минимальный и максимальный элементы
     private static void MinAndMaxValueFromArr(int size) {
@@ -22,14 +22,14 @@ public class MainClassFromLessonOne {
         int min = 0;
 
         for (int num : arr) {
-            if(num < min) {
+            if (num < min) {
                 min = num;
             }
             if (num > max) {
                 max = num;
             }
         }
-        System.out.println(max + "- максимальное значение\n" + min + "- минимальное значение" );
+        System.out.println(max + "- максимальное значение\n" + min + "- минимальное значение");
 
     }
 
@@ -51,7 +51,7 @@ public class MainClassFromLessonOne {
         int j = 0;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != val) {
-                if(i != j) {
+                if (i != j) {
                     int temp = arr[j];
                     arr[j] = arr[i];
                     arr[i] = temp;
@@ -60,6 +60,35 @@ public class MainClassFromLessonOne {
             }
         }
         System.out.println(Arrays.toString(arr));
+    }
+
+    //3*. В консоли запросить имя пользователя. В зависимости от текущего времени, вывести приветствие вида:
+    //"Доброе утро, <Имя>!", если время от 05:00 до 11:59
+    //"Добрый день, <Имя>!", если время от 12:00 до 17:59;
+    //"Добрый вечер, <Имя>!", если время от 18:00 до 22:59;
+    //"Доброй ночи, <Имя>!", если время от 23:00 до 4:59
+    private static void HelloNameFromTime() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите имя: ");
+        String name = scanner.nextLine();
+
+        LocalTime timeNow = LocalTime.now();
+        System.out.println(timeNow);
+        Calendar calendar = new GregorianCalendar();
+        System.out.println(calendar);
+        if (Calendar.getInstance().get(Calendar.HOUR_OF_DAY) >= 5
+                && Calendar.getInstance().get(Calendar.HOUR_OF_DAY) < 12) {
+            System.out.println("Доброе утро, " + name + "!");
+        } else if (Calendar.getInstance().get(Calendar.HOUR_OF_DAY) >= 12
+                && Calendar.getInstance().get(Calendar.HOUR_OF_DAY) < 18) {
+            System.out.println("Добрый день, " + name + "!");
+        } else if (Calendar.getInstance().get(Calendar.HOUR_OF_DAY) >= 18
+                && Calendar.getInstance().get(Calendar.HOUR_OF_DAY) < 23) {
+            System.out.println("Добрый вечер, " + name + "!");
+        } else if (Calendar.getInstance().get(Calendar.HOUR_OF_DAY) >= 23
+                && Calendar.getInstance().get(Calendar.HOUR_OF_DAY) < 5) {
+            System.out.println("Доброй ночи, " + name + "!");
+        }
     }
 }
 
