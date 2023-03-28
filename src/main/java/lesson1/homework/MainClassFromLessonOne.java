@@ -5,13 +5,13 @@ import java.util.*;
 
 public class MainClassFromLessonOne {
     public static void main(String[] args) {
-        //MinAndMaxValueFromArr(30);
-        //SortArray(10);
-        HelloNameFromTime();
+        //minAndMaxValueFromArr(30);
+        //sortArray(10);
+        helloNameFromTime();
     }
 
     // 1. Задать одномерный массив и найти в нем минимальный и максимальный элементы
-    private static void MinAndMaxValueFromArr(int size) {
+    private static void minAndMaxValueFromArr(int size) {
         int[] arr = new int[size];
         Random random = new Random();
         for (int i = 0; i < arr.length; i++) {
@@ -38,7 +38,7 @@ public class MainClassFromLessonOne {
 //Таким образом, первые несколько (или все) элементов массива должны быть отличны от заданного,
 // а остальные - равны ему.
 
-    private static void SortArray(int size) {
+    private static void sortArray(int size) {
         //int[] arr = new int[] {3, 2, 2, 3};
         int[] arr = new int[size];
         Random random = new Random();
@@ -67,7 +67,7 @@ public class MainClassFromLessonOne {
     //"Добрый день, <Имя>!", если время от 12:00 до 17:59;
     //"Добрый вечер, <Имя>!", если время от 18:00 до 22:59;
     //"Доброй ночи, <Имя>!", если время от 23:00 до 4:59
-    private static void HelloNameFromTime() {
+    private static void helloNameFromTime() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите имя: ");
         String name = scanner.nextLine();

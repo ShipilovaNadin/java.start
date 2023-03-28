@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="задача 2 из дз">
+    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="задача 3 из дз">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lesson1/homework/MainClassFromLessonOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson1/homework/MainClassFromLessonOne.java" afterDir="false" />
     </list>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679918328719</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="задача 3 из дз">
+      <created>1679947000355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679947000355</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +143,7 @@
     <MESSAGE value="семинар 1 завершен" />
     <MESSAGE value="задача 1 из дз" />
     <MESSAGE value="задача 2 из дз" />
-    <option name="LAST_COMMIT_MESSAGE" value="задача 2 из дз" />
+    <MESSAGE value="задача 3 из дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="задача 3 из дз" />
   </component>
 </project>
