@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="дз по уроку 1 принято">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/MainClassLessonTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/homework/MainClassFromLessonTwo.java" afterDir="false" />
+    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="задача 1 из дз ко 2 уроку">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/MainClassLessonTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/MainClassLessonTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/homework/MainClassFromLessonTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/homework/MainClassFromLessonTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679947000355</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="задача 1 из дз ко 2 уроку">
+      <created>1680073620256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680073620256</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,6 +183,7 @@
     <MESSAGE value="задача 1 из дз" />
     <MESSAGE value="задача 2 из дз" />
     <MESSAGE value="задача 3 из дз" />
-    <option name="LAST_COMMIT_MESSAGE" value="задача 3 из дз" />
+    <MESSAGE value="задача 1 из дз ко 2 уроку" />
+    <option name="LAST_COMMIT_MESSAGE" value="задача 1 из дз ко 2 уроку" />
   </component>
 </project>

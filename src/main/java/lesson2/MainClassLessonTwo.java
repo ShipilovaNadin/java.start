@@ -1,14 +1,17 @@
 package lesson2;
 
+import java.util.Scanner;
+
 public class MainClassLessonTwo {
     public static void main(String[] args) {
         //test();
         //returnLengthN();
         //countChar();
-        testTime();
+        //testTime();
+        //compereString();
+        changeTextWithString();
 
     }
-
 
     // задача называется сжатие строки - считаем количество букв и выводим букву и число повторов
     private static void countChar() {
@@ -72,4 +75,40 @@ public class MainClassLessonTwo {
         System.out.println(end - begin);
 
     }
+
+    // проверка на совпадения части строк между собой
+    private static void compereString() {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введи 1-ю строку: ");
+        StringBuilder lineOne = new StringBuilder(scanner.nextLine());
+        System.out.println("Введи 2-ю строку: ");
+        StringBuilder lineTwo = new StringBuilder(scanner.nextLine());
+        if (lineOne.toString().contains(lineTwo.toString())) {
+            System.out.println("Содержит");
+        }
+
+    }
+//находим вторую строку как часть первой и заменяем ее на определенный текст
+    private static void changeTextWithString() {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введи 1-ю строку: ");
+        StringBuilder lineOne = new StringBuilder(scanner.nextLine());
+        System.out.println("Введи 2-ю строку: ");
+        StringBuilder lineTwo = new StringBuilder(scanner.nextLine());
+
+        if (lineOne.toString().contains(lineTwo.toString())) {
+            int startIndex = lineOne.indexOf(lineTwo.toString()); //находим индекс с которого начинатается строка 2
+            int endIndex = startIndex + lineTwo.length(); // индекс конца строки 2
+            System.out.println(lineOne.replace(startIndex, endIndex, "Good code!"));
+        } else {
+            System.out.println("Подстрока не найдена");
+        }
+    }
+
+
 }
+
+
+
