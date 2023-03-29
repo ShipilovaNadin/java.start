@@ -1,5 +1,6 @@
 package lesson2.homework;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
@@ -10,8 +11,9 @@ public class MainClassFromLessonTwo {
 //        System.out.println("Ввведите строку: ");
 //        String str = scanner.nextLine();
 //        System.out.println(checkPalindrome(str));
-        String text = makeStringFrom("TEST");
-        makeFile(text);
+       // String text = makeStringFrom("TEST");
+       // makeFile(text);
+        showTypeOfFilesInDir();
 
     }
 
@@ -30,11 +32,34 @@ public class MainClassFromLessonTwo {
         }
         return sb.toString();
     }
+
     private static void makeFile(String text) {
-        try(PrintWriter pw = new PrintWriter("src/main/java/lesson2/files/output.txt")) {
+        try (PrintWriter pw = new PrintWriter("src/main/java/lesson2/files/output.txt")) {
             pw.print(text);
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
     }
+    // 3*.Напишите метод, который определит тип (расширение) файлов из текущей папки
+    // и выведет в консоль результат вида:
+    //        1 Расширение файла: txt
+    //        2 Расширение файла: pdf
+    //        3 Расширение файла:
+    //        4 Расширение файла: jpg
+
+    private static void showTypeOfFilesInDir() {
+        File file = new File("C:\\Users\\nadin\\OneDrive\\Рабочий стол\\studies\\linux");
+        String[] dirListNames = file.list();
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < dirListNames.length; i++) {
+            String fileName = dirListNames[i];
+            if (fileName.lastIndexOf(".") != -1 && fileName.lastIndexOf(".") != 0) { // если в имени файла есть точка и она не является первым символом в названии файла
+                sb.append(i+1).append(" Расширение файла: ").
+                        append(fileName.substring(fileName.lastIndexOf(".") + 1)).
+                        append(System.lineSeparator()); // вырезаем все знаки после последней точки в названии файла, то есть ХХХХХ.txt -> txt
+            } else sb.append(i+1).append(" Расширение файла: ").append("").append(System.lineSeparator());
+        }
+       System.out.println(sb);
+    }
+
 }
