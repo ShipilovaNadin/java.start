@@ -3,24 +3,23 @@ package lesson2.homework;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.Scanner;
 
 public class MainClassFromLessonTwo {
     public static void main(String[] args) {
 
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Ввведите строку: ");
-//        String str = scanner.nextLine();
-//        System.out.println(checkPalindrome(str));
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ввведите строку: ");
+        String str = scanner.nextLine().toLowerCase().replaceAll("[^A-Za-z0-9]", "");
+        System.out.println(checkPalindrome(str));
        // String text = makeStringFrom("TEST");
        // makeFile(text);
-        showTypeOfFilesInDir();
-
+        //       showTypeOfFilesInDir();
     }
-
     // 1. Напишите метод, который принимает на вход строку (String) и
 // определяет является ли строка палиндромом (возвращает boolean значение).
     private static boolean checkPalindrome(String str) {
-        return str.equals((new StringBuilder(str)).reverse().toString());
+        return str.equals((new StringBuilder()).reverse().toString());
     }
 
     // 2. Напишите метод, который составит строку, состоящую из 100 повторений слова TEST
