@@ -5,10 +5,10 @@ import java.util.*;
 public class MainClassFromLessonThree {
     public static void main(String[] args) {
         //cutEvenNumFromList();
-        findMinMaxAverageNumsFromList();
+        //findMinMaxAverageNumsFromList();
         //ex2();
+        cutNumFromStringList();
     }
-
 
     // Пусть дан произвольный список целых чисел, удалить из него четные числа
     // (в языке уже есть что-то готовое для этого)
@@ -23,6 +23,7 @@ public class MainClassFromLessonThree {
         numList.removeIf(i -> (i % 2 == 0));
         System.out.println("Список только нечетных целых чисел: " + numList);
     }
+
     // 2. Задан целочисленный список ArrayList. Найти минимальное,
     // максимальное и среднее арифметическое из этого списка.
     private static void findMinMaxAverageNumsFromList() {
@@ -30,7 +31,7 @@ public class MainClassFromLessonThree {
         Random random = new Random();
         int size = 20;
         for (int i = 0; i < size; i++) {
-            list.add(random.nextInt(-23,30));
+            list.add(random.nextInt(-23, 30));
         }
         System.out.println("Целочисленный список: " + list);
         int min = Collections.min(list);
@@ -39,7 +40,7 @@ public class MainClassFromLessonThree {
         for (int i = 0; i < list.size(); i++) {
             sumElement += list.get(i);
         }
-        int average = sumElement/ list.size();
+        int average = sumElement / list.size();
         System.out.println("Минимальное значение в списке " + min);
         System.out.println("Максимальное значение в списке " + max);
         System.out.println("Среденее арифметическое значение в списке " + average);
@@ -63,5 +64,28 @@ public class MainClassFromLessonThree {
 
     // 4*. Создать список типа ArrayList<String>. Поместить в него как строки, так и целые числа.
     // Пройти по списку, найти и удалить целые числа.
-
+    private static void cutNumFromStringList() {
+        List<String> list = new ArrayList<>();
+        list.add("f");
+        list.add("s");
+        list.add("4");
+        list.add("pmkn");
+        list.add("332");
+        list.add("f");
+        list.add("f");
+        list.add("s");
+        list.add("4");
+        list.add("pmkn");
+        list.add("332");
+        System.out.println(list);
+        for (int i = 0; i < list.size(); i++) {
+            try {
+                Integer.parseInt(list.get(i));
+                list.remove(i);
+            } catch (NumberFormatException e) {
+                /// нормально ли что этот блок пустой? хоть и все работает...
+            }
+        }
+        System.out.println(list);
+    }
 }
