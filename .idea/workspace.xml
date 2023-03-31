@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="дз к 2 уроку принято">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/MainClassLessonThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/homework/MainClassFromLessonThree.java" afterDir="false" />
+    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="результаты 3 урока">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/homework/MainClassFromLessonThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/homework/MainClassFromLessonThree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainClassLessonThree">
+  <component name="RunManager" selected="Application.MainClassFromLessonThree">
     <configuration name="MainClassFromLessonOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.homework.MainClassFromLessonOne" />
       <module name="java.start" />
@@ -72,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassFromLessonTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.homework.MainClassFromLessonTwo" />
+    <configuration name="MainClassFromLessonThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.homework.MainClassFromLessonThree" />
       <module name="java.start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.homework.*" />
+          <option name="PATTERN" value="lesson3.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassLessonOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.MainClassLessonOne" />
+    <configuration name="MainClassFromLessonTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.homework.MainClassFromLessonTwo" />
       <module name="java.start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.*" />
+          <option name="PATTERN" value="lesson2.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClassFromLessonThree" />
         <item itemvalue="Application.MainClassLessonThree" />
         <item itemvalue="Application.MainClassFromLessonTwo" />
         <item itemvalue="Application.MainClassLessonTwo" />
         <item itemvalue="Application.MainClassFromLessonOne" />
-        <item itemvalue="Application.MainClassLessonOne" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680087659316</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="результаты 3 урока">
+      <created>1680250944553</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680250944553</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +219,7 @@
     <MESSAGE value="задача 3 из дз" />
     <MESSAGE value="задача 1 из дз ко 2 уроку" />
     <MESSAGE value="задача 2 из дз ко 2 уроку" />
-    <option name="LAST_COMMIT_MESSAGE" value="задача 2 из дз ко 2 уроку" />
+    <MESSAGE value="результаты 3 урока" />
+    <option name="LAST_COMMIT_MESSAGE" value="результаты 3 урока" />
   </component>
 </project>
