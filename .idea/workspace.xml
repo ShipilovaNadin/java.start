@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="задача 2 из дз ко 2 уроку">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="дз к 2 уроку принято">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/MainClassLessonThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/homework/MainClassFromLessonThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/homework/MainClassFromLessonTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/homework/MainClassFromLessonTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainClassFromLessonTwo">
+  <component name="RunManager" selected="Application.MainClassLessonThree">
     <configuration name="MainClassFromLessonOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson1.homework.MainClassFromLessonOne" />
       <module name="java.start" />
@@ -98,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainClassLessonThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.MainClassLessonThree" />
+      <module name="java.start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainClassLessonTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2.MainClassLessonTwo" />
       <module name="java.start" />
@@ -113,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClassLessonThree" />
         <item itemvalue="Application.MainClassFromLessonTwo" />
         <item itemvalue="Application.MainClassLessonTwo" />
         <item itemvalue="Application.MainClassFromLessonOne" />
