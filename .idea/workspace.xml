@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="задача 4 из 3 ДЗ">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson3/dop/Main.java" afterDir="false" />
+    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="добавила материалы 3 семенара Филогенова">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="lesson1" />
+    <option name="BRANCH" value="lesson3" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -191,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680087659316</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="добавила материалы 3 семенара Филогенова">
+      <created>1680261024566</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680261024566</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +218,7 @@
     <MESSAGE value="задача 3 из дз" />
     <MESSAGE value="задача 1 из дз ко 2 уроку" />
     <MESSAGE value="задача 2 из дз ко 2 уроку" />
-    <option name="LAST_COMMIT_MESSAGE" value="задача 2 из дз ко 2 уроку" />
+    <MESSAGE value="добавила материалы 3 семенара Филогенова" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавила материалы 3 семенара Филогенова" />
   </component>
 </project>
