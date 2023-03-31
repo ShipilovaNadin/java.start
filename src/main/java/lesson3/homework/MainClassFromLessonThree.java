@@ -1,14 +1,14 @@
 package lesson3.homework;
 
-import java.util.ArrayList;
-import java.util.Random;
+import java.util.*;
 
 public class MainClassFromLessonThree {
     public static void main(String[] args) {
-        cutEvenNumFromList();
-        findMinMaxMidlNumsFromList();
-
+        //cutEvenNumFromList();
+        findMinMaxAverageNumsFromList();
+        //ex2();
     }
+
 
     // Пусть дан произвольный список целых чисел, удалить из него четные числа
     // (в языке уже есть что-то готовое для этого)
@@ -25,8 +25,43 @@ public class MainClassFromLessonThree {
     }
     // 2. Задан целочисленный список ArrayList. Найти минимальное,
     // максимальное и среднее арифметическое из этого списка.
-    private static void findMinMaxMidlNumsFromList() {
-
+    private static void findMinMaxAverageNumsFromList() {
+        ArrayList<Integer> list = new ArrayList<>();
+        Random random = new Random();
+        int size = 20;
+        for (int i = 0; i < size; i++) {
+            list.add(random.nextInt(-23,30));
+        }
+        System.out.println("Целочисленный список: " + list);
+        int min = Collections.min(list);
+        int max = Collections.max(list);
+        int sumElement = 0;
+        for (int i = 0; i < list.size(); i++) {
+            sumElement += list.get(i);
+        }
+        int average = sumElement/ list.size();
+        System.out.println("Минимальное значение в списке " + min);
+        System.out.println("Максимальное значение в списке " + max);
+        System.out.println("Среденее арифметическое значение в списке " + average);
     }
+
+    // 3. Доделать начатое на семинаре. Пройтись по списку из задания 2 и
+    // удалить повторяющиеся элементы.
+    public static void ex2() {
+        String[] arrPlanet = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptun", "Pluto"};
+        Random random = new Random();
+        List<String> list = new ArrayList<>();
+        int size = 30;
+        for (int i = 0; i < size; i++) {
+            list.add(arrPlanet[random.nextInt(9)]); //0-8
+        }
+        System.out.println(list);
+        Set<String> res = new LinkedHashSet<>(list);
+        ArrayList resList = new ArrayList<>(res);
+        System.out.println(resList);
+    }
+
+    // 4*. Создать список типа ArrayList<String>. Поместить в него как строки, так и целые числа.
+    // Пройти по списку, найти и удалить целые числа.
 
 }
