@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="добавила материалы 3 семенара Филогенова">
+    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="обновленный гитигнор">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/MainClassLessonFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/dop/MainClassLesson4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/dop/homework/MainFromLesson4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson4/names" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson3" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,17 +51,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.MainFromLesson4">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson3.dop.Main" />
       <module name="java.start" />
@@ -70,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassFromLessonOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson1.homework.MainClassFromLessonOne" />
+    <configuration name="MainClassLesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.dop.MainClassLesson4" />
       <module name="java.start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson1.homework.*" />
+          <option name="PATTERN" value="lesson4.dop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +88,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassFromLessonTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.homework.MainClassFromLessonTwo" />
+    <configuration name="MainClassLessonFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.MainClassLessonFour" />
       <module name="java.start" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/src/main/java/lesson4/names" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.homework.*" />
+          <option name="PATTERN" value="lesson4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassLessonTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.MainClassLessonTwo" />
+    <configuration name="MainFromLesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.dop.homework.MainFromLesson4" />
       <module name="java.start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson4.dop.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,13 +129,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MainClassLesson4" />
+      <item itemvalue="Application.MainFromLesson4" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MainClassLessonFour" />
+      <item itemvalue="Application.MainClassLessonThree" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainFromLesson4" />
+        <item itemvalue="Application.MainClassLesson4" />
+        <item itemvalue="Application.MainClassLessonFour" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainClassLessonThree" />
-        <item itemvalue="Application.MainClassFromLessonTwo" />
-        <item itemvalue="Application.MainClassLessonTwo" />
-        <item itemvalue="Application.MainClassFromLessonOne" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680261024566</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="обновленный гитигнор">
+      <created>1680345220557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680345220557</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +240,11 @@
     <MESSAGE value="задача 1 из дз ко 2 уроку" />
     <MESSAGE value="задача 2 из дз ко 2 уроку" />
     <MESSAGE value="добавила материалы 3 семенара Филогенова" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавила материалы 3 семенара Филогенова" />
+    <MESSAGE value="обновленный гитигнор" />
+    <option name="LAST_COMMIT_MESSAGE" value="обновленный гитигнор" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
