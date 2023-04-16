@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="обновленный гитигнор">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/Finogenov.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/main/Lesson5.java" afterDir="false" />
+    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="урок 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/main/homework/FromLesson5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/homework/MainClassFromLessonTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/homework/MainClassFromLessonTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +57,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lesson5">
+  <component name="RunManager" selected="Application.FromLesson5">
     <configuration name="Finogenov" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson5.Finogenov" />
       <module name="java.start" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FromLesson5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5.main.homework.FromLesson5" />
+      <module name="java.start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson5.main.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,21 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassLessonFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.MainClassLessonFour" />
-      <module name="java.start" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="$PROJECT_DIR$/src/main/java/lesson4/names" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainFromLesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson4.dop.homework.MainFromLesson4" />
       <module name="java.start" />
@@ -129,18 +125,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Finogenov" />
+      <item itemvalue="Application.FromLesson5" />
       <item itemvalue="Application.Lesson5" />
       <item itemvalue="Application.MainClassLesson4" />
       <item itemvalue="Application.MainFromLesson4" />
-      <item itemvalue="Application.MainClassLessonFour" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FromLesson5" />
         <item itemvalue="Application.Lesson5" />
         <item itemvalue="Application.Finogenov" />
         <item itemvalue="Application.MainFromLesson4" />
         <item itemvalue="Application.MainClassLesson4" />
-        <item itemvalue="Application.MainClassLessonFour" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680345220557</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="урок 5">
+      <created>1681650099094</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681650099095</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +242,8 @@
     <MESSAGE value="задача 2 из дз ко 2 уроку" />
     <MESSAGE value="добавила материалы 3 семенара Филогенова" />
     <MESSAGE value="обновленный гитигнор" />
-    <option name="LAST_COMMIT_MESSAGE" value="обновленный гитигнор" />
+    <MESSAGE value="урок 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="урок 5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
