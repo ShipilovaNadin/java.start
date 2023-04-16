@@ -3,6 +3,7 @@ package lesson2.homework;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class MainClassFromLessonTwo {
@@ -59,6 +60,26 @@ public class MainClassFromLessonTwo {
             } else sb.append(i+1).append(" Расширение файла: ").append("").append(System.lineSeparator());
         }
        System.out.println(sb);
+
+
+    }
+    // вариант решения последней задачи учителя
+    private static void ex6(String path) {
+        File dir = new File(path);
+        int count = 1;
+        for (File file : Objects.requireNonNull(dir.listFiles())) {
+            String ext = "";
+            if (file.isDirectory()) {
+                ext = "dir";
+            } else {
+                String[] parts = file.getName().split("\\.");
+                if (parts.length > 1) {
+                    ext = parts[parts.length - 1];
+                }
+            }
+
+            System.out.printf("%2s) Расширение файла: %s%n", count++, ext);
+        }
     }
 
 }
