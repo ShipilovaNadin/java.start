@@ -32,16 +32,18 @@ public class FromLesson5 {
     // 1. Реализуйте структуру телефонной книги с помощью HashMap, учитывая, что 1 человек может иметь несколько телефонов.
     private static void addNames() {
         Map<String, List<? extends String>> phoneBook = new HashMap<>();
-        //while (true) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Введите имя для добавления в телефонную книгу: ");
-        String name = sc.next();
-        phoneBook.put(name, addPhoneNumbers());
-        Scanner sc2 = new Scanner(System.in);
-        System.out.println("Введите имя для добавления в телефонную книгу: ");
-        String name2 = sc2.next();
-        phoneBook.put(name2, addPhoneNumbers());
-        // }
+        boolean run = true;
+        while (run) {
+            System.out.println("Введите имя для добавления в телефонную книгу или стоп для выхода ");
+            String name = sc.nextLine();
+            if(name.trim().equalsIgnoreCase("стоп")) {
+                break;
+            }
+            else {
+                phoneBook.put(name.trim(), addPhoneNumbers());
+            }
+        }
         System.out.println(phoneBook);
     }
 
@@ -60,6 +62,7 @@ public class FromLesson5 {
         System.out.println("Отсортированный по популярности список имен: ");
         sortNames(mapNames);
     }
+
     private static List<String> getName(String[] list) { // создаем список из имен (индекс ноль каждой строки во входящем массиве строк
         List<String> listNames = new ArrayList<>();
         for (String item : list) {
@@ -68,6 +71,7 @@ public class FromLesson5 {
         }
         return listNames;
     }
+
     private static Map<String, Integer> getMap(List<String> list) {
         Map<String, Integer> stringIntegerMap = new HashMap<>();
         for (int i = 0; i < list.size(); i++) {
@@ -84,6 +88,7 @@ public class FromLesson5 {
         }
         return stringIntegerMap;
     }
+
     private static void duplicateNames(Map<String, Integer> map) {
         for (var item : map.entrySet()) {
             if (item.getValue() > 1) {
@@ -91,6 +96,7 @@ public class FromLesson5 {
             }
         }
     }
+
     private static void sortNames(Map<String, Integer> map) {
         Map<String, Integer> sortMap = new LinkedHashMap<>();
         List<Entry<String, Integer>> list = new ArrayList<>(map.entrySet());
@@ -113,6 +119,7 @@ public class FromLesson5 {
             System.out.printf("Метод 2: %d -----> %s", num, getRomanNumber(num));
         } else System.out.println("Введено некоректное число");
     }
+
     private static String numToRoman(int number) {
         TreeMap<Integer, String> romanNumbers = new TreeMap<>();
         romanNumbers.put(1000, "M");
@@ -134,6 +141,7 @@ public class FromLesson5 {
         }
         return romanNumbers.get(maxKey) + numToRoman(number - maxKey);
     }
+
     public static String getRomanNumber(int number) {
         return "I".repeat(number)
                 .replace("IIIII", "V")

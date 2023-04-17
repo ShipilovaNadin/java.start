@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="урок 5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson5/main/homework/FromLesson5.java" afterDir="false" />
+    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="домашняя работа к 5 уроку">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/main/homework/FromLesson5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/main/homework/FromLesson5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681650099095</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="домашняя работа к 5 уроку">
+      <created>1681667820170</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681667820170</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +250,8 @@
     <MESSAGE value="добавила материалы 3 семенара Филогенова" />
     <MESSAGE value="обновленный гитигнор" />
     <MESSAGE value="урок 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="урок 5" />
+    <MESSAGE value="домашняя работа к 5 уроку" />
+    <option name="LAST_COMMIT_MESSAGE" value="домашняя работа к 5 уроку" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
