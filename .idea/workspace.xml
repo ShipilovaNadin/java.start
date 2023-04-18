@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="обновленный гитигнор">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Cats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/MainClassLesson6.java" afterDir="false" />
+    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="урок 6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/homework/FromLesson6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/homework/Notebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson5" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,7 +58,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Cats">
+  <component name="RunManager" selected="Application.FromLesson6">
     <configuration name="Cats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson6.Cats" />
       <module name="java.start" />
@@ -73,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Finogenov" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5.Finogenov" />
+    <configuration name="FromLesson5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson5.main.homework.FromLesson5" />
       <module name="java.start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.*" />
+          <option name="PATTERN" value="lesson5.main.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FromLesson5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson5.main.homework.FromLesson5" />
+    <configuration name="FromLesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.homework.FromLesson6" />
       <module name="java.start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.main.homework.*" />
+          <option name="PATTERN" value="lesson6.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,18 +126,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Cats" />
+      <item itemvalue="Application.FromLesson6" />
       <item itemvalue="Application.MainClassLesson6" />
-      <item itemvalue="Application.Finogenov" />
       <item itemvalue="Application.FromLesson5" />
       <item itemvalue="Application.Lesson5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FromLesson6" />
         <item itemvalue="Application.Cats" />
         <item itemvalue="Application.MainClassLesson6" />
         <item itemvalue="Application.FromLesson5" />
         <item itemvalue="Application.Lesson5" />
-        <item itemvalue="Application.Finogenov" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681667820170</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="урок 6">
+      <created>1681815690917</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681815690917</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +259,8 @@
     <MESSAGE value="обновленный гитигнор" />
     <MESSAGE value="урок 5" />
     <MESSAGE value="домашняя работа к 5 уроку" />
-    <option name="LAST_COMMIT_MESSAGE" value="домашняя работа к 5 уроку" />
+    <MESSAGE value="урок 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="урок 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
