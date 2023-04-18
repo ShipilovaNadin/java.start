@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="домашняя работа к 5 уроку">
+    <list default="true" id="e9089ba3-609a-4aef-bf49-abaec6e143c2" name="Changes" comment="обновленный гитигнор">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Cats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/MainClassLesson6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/main/homework/FromLesson5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/main/homework/FromLesson5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +23,12 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="lesson3" />
+    <option name="BRANCH" value="lesson5" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,7 +59,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FromLesson5">
+  <component name="RunManager" selected="Application.Cats">
+    <configuration name="Cats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Cats" />
+      <module name="java.start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Finogenov" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson5.Finogenov" />
       <module name="java.start" />
@@ -97,25 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassLesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.dop.MainClassLesson4" />
+    <configuration name="MainClassLesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.MainClassLesson6" />
       <module name="java.start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.dop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainFromLesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.dop.homework.MainFromLesson4" />
-      <module name="java.start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.dop.homework.*" />
+          <option name="PATTERN" value="lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,19 +126,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Cats" />
+      <item itemvalue="Application.MainClassLesson6" />
       <item itemvalue="Application.Finogenov" />
       <item itemvalue="Application.FromLesson5" />
       <item itemvalue="Application.Lesson5" />
-      <item itemvalue="Application.MainClassLesson4" />
-      <item itemvalue="Application.MainFromLesson4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cats" />
+        <item itemvalue="Application.MainClassLesson6" />
         <item itemvalue="Application.FromLesson5" />
         <item itemvalue="Application.Lesson5" />
         <item itemvalue="Application.Finogenov" />
-        <item itemvalue="Application.MainFromLesson4" />
-        <item itemvalue="Application.MainClassLesson4" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +254,17 @@
     <MESSAGE value="урок 5" />
     <MESSAGE value="домашняя работа к 5 уроку" />
     <option name="LAST_COMMIT_MESSAGE" value="домашняя работа к 5 уроку" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lesson6/MainClassLesson6.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
